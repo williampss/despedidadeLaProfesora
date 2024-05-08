@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../images/fundo.jpg);
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+
+}
+.tab-btn{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 10px;
+
+}
+.content{
+    display: none;
+}
+.content.show{
+    display: flex;
+}
+
