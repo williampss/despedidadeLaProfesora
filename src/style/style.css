@@ -13,24 +13,92 @@ body{
     height: 100vh;
     display: flex;
 }
-footer{
+.org{
+    padding: 10px;
+}
+.org h3{
+    padding-bottom: 50px;
+    margin: 10px;
+    color: yellow ;
+
+}
+.botao{
     display: flex;
     justify-content: center;
-    gap: 10px;
-    
-
+    padding-top: 10px;
+    margin-left: 10px;   
+    gap: 60px;
+   
 }
 .tab-btn{
     display: flex;
     justify-content: center;
     width: 100px;
-    padding: 10px;
-
+    height: 50px;
+    border-radius: 20px;
+    padding: 15px;
 }
 .content{
     display: none;
+    flex-direction:column ;
+    padding: 10px;
+    border-radius: 20px;
 }
 .content.show{
     display: flex;
 }
+.tab-contents{
+    display: flex;
+    justify-content: space-around;
+    width: 270px;
+    border: 10px;
+}
+.image{
+    padding-top: 200px;
+    margin-left: 75px
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#bob{
+    background: linear-gradient(to right, #f7971e, #ffd200);
+}
+#final button{
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+}
+#pat{
+    background: linear-gradient(to right, #b24592, #f15f79);
+}
+#final button{
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+}
+#final{
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+#final button{
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+}
+.image_modify{
+    padding-top: 10px;
+    margin-left: 5px
+}
+.image_modify img{
+    width: 200px;
+    height: 500px;
+}
+.image_modify .tab-btn{
+    margin-left: 50px
+}
+.image_modify h3{
+    color: red;
+    margin-left: 10px;
+}
+#nao{
+    background-color: black;
+ 
+}
+
+
+
 

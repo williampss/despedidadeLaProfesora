@@ -8,16 +8,18 @@
 </head>
 <body>
    <div id="container">
-    <div class="content show">
-        <footer>
-            <h1>VC É ELLEN MOSKATELLI?</h1>
-            <button class="tab-btn" content-id="bob">
-                SIM
-            </button>
-            <button class="tab-btn" content-id="nao">
-                NÃO
-            </button>
-        </footer>
+    <div class="content show" id="inicio"> 
+        <div class="org">
+            <h3>VC É ELLEN MOSKATELLI?</h3>
+            <div class="botao">
+                <button class="tab-btn" content-id="bob" style="background-color: yellow;">
+                    SIM
+                </button>
+                <button class="tab-btn" content-id="nao" style="background-color: red;">
+                    NÃO
+                </button>
+            </div>   
+        </div>
     </div>
     <div class="tab-contents">
         <div class="content" id="bob">
@@ -55,7 +57,21 @@
             </p>
            <div class="image">
             <img src="src/images/abacaxi2.png" alt="">
+            <button class="tab-btn" content-id="inicio">
+                VOLTAR
+               </button>
            </div>
+        </div>
+    </div>
+    <div class="tab-contents">
+        <div class="content" id="nao">
+            <div class="image_modify">
+                <h3>VOCÊ NÃO É DIGNO</h3>
+                <img src="src/images/N2E_of.gif" alt="">
+                <button class="tab-btn" content-id="inicio">
+                    VOLTAR
+                </button>
+            </div>
         </div>
     </div>
 
